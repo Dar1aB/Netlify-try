@@ -13,7 +13,7 @@
     "build": "gulp build",
     "dev": "gulp",
     "fab": "npm run fixAll && npm run build",
-    "gitpush": "npm run fixAll && git add . && git commit -m 'подготовиликпубликации' && git push"
+    "gitpush": "npm run fixAll && git add . && git commit -m 'подготовили_к_публикации' && git push"
   },
   "author": "",
   "license": "ISC",
