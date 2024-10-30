@@ -12,7 +12,8 @@
     "fixAll": "npm run format && npm run lintfix",
     "build": "gulp build",
     "dev": "gulp",
-    "fab": "npm run fixAll && npm run build"
+    "fab": "npm run fixAll && npm run build",
+    "gitpush": "npm run fixAll && git add . && git commit -m 'подготовиликпубликации' && git push"
   },
   "author": "",
   "license": "ISC",
